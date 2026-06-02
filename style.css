@@ -14,6 +14,15 @@ body{
     color:#2F2A35;
 }
 
+
+#inicio,
+#servicios,
+#proceso,
+#portafolio,
+#contacto{
+    scroll-margin-top:220px;
+}
+
 /* NAVBAR */
 
 header{
@@ -357,7 +366,7 @@ footer{
     }
 
     .hero{
-        margin-top:180px;
+        margin-top:200px;
         min-height:auto;
         flex-direction:column;
         justify-content:center;
@@ -368,7 +377,7 @@ footer{
     }
 
     .hero-texto{
-        margin-top: 40px;
+        margin-top: 0px;
         width:100%;
         max-width:100%;
     }
@@ -411,11 +420,17 @@ footer{
     }
 
     .whatsapp{
-        width:55px;
-        height:55px;
+        max-width: 100px;
+        width:50px;
+        height:50px;
         bottom:20px;
         right:20px;
         font-size:24px;
+    }
+
+    .whatsapp img{
+        width: 50px;
+        height: 50px;
     }
 
 }
